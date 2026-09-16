@@ -1,0 +1,5 @@
+print("Calculate fuel consumption")
+distance = float(input("Enter travel distance in kilometers: "))
+fuelusage = float(input("Enter fuel usage in liters: "))
+consumption = int((fuelusage / distance) * 100)
+print(f"Fuel consumption is {consumption} l per 100 km.")
