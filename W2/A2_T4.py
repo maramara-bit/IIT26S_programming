@@ -1,0 +1,17 @@
+print("Program starting.")
+print("Estimate how many minutes you spent on programming...")
+print("\n")
+task1 = int(input("A1_T1: "))
+task2 = int(input("A1_T2: "))
+task3 = int(input("A1_T3: "))
+task4 = int(input("A1_T4: "))
+task5 = int(input("A1_T5: "))
+task6 = int(input("A1_T6: "))
+task7 = int(input("A1_T7: "))
+combined = task1 + task2 + task3 + task4 + task5 + task6 + task7
+print("\n")
+print(f"In total you spent {combined} minutes on programming")
+average = combined/7
+print(f"Average per task was {round(average,2)} and the same rounded to the nearest integer {round(average)}")
+print("\n")
+print("Program ending.")

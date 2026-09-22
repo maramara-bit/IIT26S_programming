@@ -1,4 +1,6 @@
 print("Program starting")
 carbrand = input("Insert car brand: ")
 carmodel = input("Insert car model: ")
-print("Car brand is {carbrand, sep = '"'} and the model is {carmodel, end = '''})
+print("Car brand is ", carbrand , " ", sep='"', end=" ")
+print("and the model is ", carmodel , ".", sep="'")
+print("Program ending.")
