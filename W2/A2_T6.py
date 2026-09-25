@@ -1,9 +1,9 @@
 print("Program starting.")
 print("\n")
 hexcolor = input("Insert a hex color: ")
-r = hexcolor[1:2:]
-g = hexcolor[3:4:]
-b = hexcolor[5:6:]
+r = hexcolor[1:3]
+g = hexcolor[3:5]
+b = hexcolor[5:7]
 print("\n")
 print("Colors")
 print(f"- Red {r}")
