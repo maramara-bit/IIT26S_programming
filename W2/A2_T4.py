@@ -12,6 +12,6 @@ combined = task1 + task2 + task3 + task4 + task5 + task6 + task7
 print("\n")
 print(f"In total you spent {combined} minutes on programming")
 average = combined/7
-print(f"Average per task was {round(average,2)} and the same rounded to the nearest integer {round(average)}")
+print(f"Average per task was {round(average,2)} and the same rounded to the nearest integer {round(average)} min.")
 print("\n")
 print("Program ending.")
