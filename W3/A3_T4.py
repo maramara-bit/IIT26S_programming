@@ -14,6 +14,6 @@ elif choice == 4:
 elif choice == 0:
     print("Exiting...")
 else:
-    print("Unknown choice.")
+    print("Unknown option.")
 print("\n")
 print("Program ending.")
