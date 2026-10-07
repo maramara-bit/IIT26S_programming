@@ -1,4 +1,4 @@
-print("Program starting.")
+print("Program starting.\n")
 #Check rules
 while True:
     num1 = int(input("Insert starting point: "))
@@ -11,16 +11,16 @@ while True:
         print("Inspection value must be within the range of start and stop.")
         break
     else:#Break, cut from inspection point
-        print("\nFirst loop - inspection with break:\n")
+        print("\nFirst loop - inspection with break:")
         for n in range(num1, num2):
             if n == num3:
                 break
-            print(n, end=" ")
+            print(n, end="")
         #Continue, skip inspection point
-        print("\nSecond loop - inspection with continue:\n")
+        print("\nSecond loop - inspection with continue:")
         for n in range(num1, num2):
             if n == num3:
                 continue
-            print(n, end=" ")
+            print(n, end="")
         break #end while loop
 print("\nProgram ending.")
