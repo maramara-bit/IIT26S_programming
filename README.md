@@ -13,8 +13,8 @@ task 5  https://github.com/maramara-bit/W3_5
 task 6  https://github.com/maramara-bit/W3_6  
 
 Week 4  
-task 5  
-task 6  
+task 6  https://github.com/maramara-bit/W4_6  
+task 7  https://github.com/maramara-bit/W4_7  
 
 Week 5  
 task 5  
