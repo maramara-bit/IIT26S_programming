@@ -15,12 +15,13 @@ while True:
         for n in range(num1, num2):
             if n == num3:
                 break
-            print(n, end="")
+            print(n, end=" ")
         #Continue, skip inspection point
         print("\nSecond loop - inspection with continue:")
         for n in range(num1, num2):
             if n == num3:
                 continue
-            print(n, end="")
+            print(n, end=" ")
         break #end while loop
 print("\nProgram ending.")
+#no trailing space character at the end of any row.

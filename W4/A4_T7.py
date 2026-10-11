@@ -8,9 +8,9 @@ while len(num1) > 1:
     step += 1 #Keeping track of steps
     product = 1 #Tulo, multiplying with 1 does not change value
     #len(num1) returns the number of characters given in num1
-    #range n is 0 to how many characters
-    for n in range(len(num1)):
-        number = int(num1[n]) #
+    #Checking current number
+    for n in range(len(num1)):#n is a specific number in range 0 to how many characters
+        number = int(num1[n]) #Convert from text to integer
         product = product * number
         if n == len(num1) -1: #If range is the same as the amount of characters in num1 -1
             print(number, end="")

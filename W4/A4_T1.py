@@ -5,4 +5,3 @@ print("Starting for-loop:")
 for n in range(num1, num2+1):
     print(n)
 print("Program ending.")
-#Korvaa +1  
