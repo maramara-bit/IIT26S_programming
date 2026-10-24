@@ -3,11 +3,13 @@ def insertWord():
     return Word
 
 def showWord(PWord):
-    print(f'Current word - "{PWord}".')
+    print(f'Current word - "{PWord}"')
+    return None
 
 def reverseWord(PWord):
     revWord = PWord[::-1]
-    print(f'Word reversed - "{revWord}".')
+    print(f'Word reversed - "{revWord}"')
+    return None
 
 
 def main():
