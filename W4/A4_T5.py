@@ -10,18 +10,22 @@ while True:
     if num3 < num1 or num3 > num2: 
         print("Inspection value must be within the range of start and stop.")
         break
-    else:#Break, cut from inspection point
+#Break, cut from inspection point
+    else:
         print("\nFirst loop - inspection with break:")
         for n in range(num1, num2):
             if n == num3:
                 break
-            print(n, end=" ")
-        #Continue, skip inspection point
+            print(n, end="/")
+#Continue, skip inspection point
         print("\nSecond loop - inspection with continue:")
         for n in range(num1, num2):
             if n == num3:
                 continue
-            print(n, end=" ")
-        break #end while loop
+            print(n, end="/")
+#end while loop
+        break 
 print("\nProgram ending.")
-#no trailing space character at the end of any row.
+#No trailing space character at the end of any row:
+#Space before number
+#Another statement

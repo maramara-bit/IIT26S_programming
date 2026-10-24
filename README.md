@@ -17,5 +17,5 @@ task 6  https://github.com/maramara-bit/W4_6
 task 7  https://github.com/maramara-bit/W4_7  
 
 Week 5  
-task 5  
-task 6  
+task 6  https://github.com/maramara-bit/W5_6  
+task 7  https://github.com/maramara-bit/W5_7  
