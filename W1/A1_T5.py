@@ -1,6 +1,8 @@
 print("Calculate the area of a wall")
-width = float(input("Enter the width in meters: "))
-height = float(input("Enter the height in meters: "))
-print(f"Width is {width} m and height is {height} m")
-area = width * height
-print(f"The wall will be {area} square meters")
+Feed = float(input("Enter the width in meters: "))
+Width = int(Feed)
+Feed = float(input("Enter the height in meters: "))
+Height = int(Feed)
+print(f"Width is {Width} m and height is {Height} m")
+Area = Width * Height
+print(f"The wall will be {Area} square meters")

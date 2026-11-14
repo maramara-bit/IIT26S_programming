@@ -24,7 +24,6 @@ def main():
     print("Program starting.")
     words = collectWords()
     analyseWords(words)
-
     print("\nProgram ending.")
 
 main()

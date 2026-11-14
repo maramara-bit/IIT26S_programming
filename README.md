@@ -19,3 +19,10 @@ task 7  https://github.com/maramara-bit/W4_7
 Week 5  
 task 6  https://github.com/maramara-bit/W5_6  
 task 7  https://github.com/maramara-bit/W5_7  
+
+Week 6  
+task 5  https://github.com/maramara-bit/W6_5  
+task 6  https://github.com/maramara-bit/W6_6  
+
+Week 7  
+task
